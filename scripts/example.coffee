@@ -22,6 +22,10 @@ module.exports = (robot) ->
   #
   robot.hear /pony/i, (msg) ->
     msg.emote "http://media.giphy.com/media/12XMGIWtrHBl5e/giphy.gif"
+
+  robot.hear /vvv/i, (msg) ->
+    msg.emote "http://stream1.gifsoup.com/view1/3286168/hey-stop-thats-gay-o.gif"
+
   #
   # lulz = ['lol', 'rofl', 'lmao']
   #
@@ -32,13 +36,13 @@ module.exports = (robot) ->
   #   msg.send "#{msg.message.text}? That's a Paddlin'"
   #
   #
-  # enterReplies = ['Hi', 'Target Acquired', 'Firing', 'Hello friend.', 'Gotcha', 'I see you']
-  # leaveReplies = ['Are you still there?', 'Target lost', 'Searching']
-  #
-  # robot.enter (msg) ->
-  #   msg.send msg.random enterReplies
-  # robot.leave (msg) ->
-  #   msg.send msg.random leaveReplies
+  enterReplies = ['Your emperor has returned']
+  leaveReplies = ['Your emperor has returned is out...peace']
+
+  robot.enter (msg) ->
+    msg.send msg.random enterReplies
+  robot.leave (msg) ->
+    msg.send msg.random leaveReplies
   #
   # answer = process.env.HUBOT_ANSWER_TO_THE_ULTIMATE_QUESTION_OF_LIFE_THE_UNIVERSE_AND_EVERYTHING
   #
