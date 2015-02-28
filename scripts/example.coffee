@@ -26,6 +26,9 @@ module.exports = (robot) ->
   robot.hear /vvv/i, (msg) ->
     msg.emote "http://stream1.gifsoup.com/view1/3286168/hey-stop-thats-gay-o.gif"
 
+  robot.hear /time has come/i, (msg) ->
+    msg.send "and so have I..."
+
   #
   # lulz = ['lol', 'rofl', 'lmao']
   #
