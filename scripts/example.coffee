@@ -32,7 +32,7 @@ module.exports = (robot) ->
   robot.hear /fuck (you|u) shurima/i, (msg) ->
     msg.send "well...fuck you too"
     msg.send "http://media1.giphy.com/media/vF1GYC0FSw2vS/giphy.gif"
-    msg.send "Im an emperor I don't need this shit"
+    msg.send "I'm an emperor I don't need this shit"
 
   #
   # lulz = ['lol', 'rofl', 'lmao']
