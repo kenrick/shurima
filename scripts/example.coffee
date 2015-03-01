@@ -29,6 +29,11 @@ module.exports = (robot) ->
   robot.hear /time has come/i, (msg) ->
     msg.send "and so have I..."
 
+  robot.hear /fuck (you|u) shurima/i, (msg) ->
+    msg.send "well...fuck you too"
+    msg.send "http://media1.giphy.com/media/vF1GYC0FSw2vS/giphy.gif"
+    msg.send "Im an emperor I don't need this shit"
+
   #
   # lulz = ['lol', 'rofl', 'lmao']
   #
@@ -46,6 +51,9 @@ module.exports = (robot) ->
     msg.send msg.random enterReplies
   robot.leave (msg) ->
     msg.send msg.random leaveReplies
+
+
+
   #
   # answer = process.env.HUBOT_ANSWER_TO_THE_ULTIMATE_QUESTION_OF_LIFE_THE_UNIVERSE_AND_EVERYTHING
   #
