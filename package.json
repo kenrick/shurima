@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "author": "Kenrick Beckett <kenrick.beckett@gmail.com>",
-  "description": "The empurer",
+  "description": "The Emperor",
   "dependencies": {
     "hubot": "^2.11.1",
     "hubot-diagnostics": "0.0.1",
