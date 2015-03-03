@@ -10,7 +10,8 @@
 
 module.exports = (robot) ->
 
-  robot.messageRoom "#general", "Your emperor has returned"
+  setTimeout () ->
+    robot.messageRoom "general", "Your emperor has returned"
 
   robot.hear /pony/i, (msg) ->
     msg.emote "http://media.giphy.com/media/12XMGIWtrHBl5e/giphy.gif"
