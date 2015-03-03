@@ -10,7 +10,7 @@
 
 module.exports = (robot) ->
 
-  robot.send { room: "#general" }, "Your emperor has returned"
+  robot.messageRoom "#general", "Your emperor has returned"
 
   robot.hear /pony/i, (msg) ->
     msg.emote "http://media.giphy.com/media/12XMGIWtrHBl5e/giphy.gif"
