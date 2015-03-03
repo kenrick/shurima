@@ -9,6 +9,10 @@
 #   These are from the scripting documentation: https://github.com/github/hubot/blob/master/docs/scripting.md
 
 module.exports = (robot) ->
+  
+  # https://www.youtube.com/watch?v=DRuIJzTzBCw
+  robot.hear /my mind is telling me no/i, (msg) ->
+    msg send "BUT MY BODY! MY BODY'S TELLING ME YESSS!"
 
   setTimeout () ->
     robot.messageRoom "general", "Your emperor has returned"
