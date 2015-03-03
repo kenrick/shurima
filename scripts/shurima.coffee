@@ -10,6 +10,8 @@
 
 module.exports = (robot) ->
 
+  robot.send null, "Your emperor has returned"
+
   robot.hear /pony/i, (msg) ->
     msg.emote "http://media.giphy.com/media/12XMGIWtrHBl5e/giphy.gif"
 
@@ -23,11 +25,3 @@ module.exports = (robot) ->
     msg.send "well...fuck you too"
     msg.send "http://media1.giphy.com/media/vF1GYC0FSw2vS/giphy.gif"
     msg.send "I'm an emperor I don't need this shit"
-
-  enterReplies = ['Your emperor has returned']
-  leaveReplies = ['Your emperor has returned is out...peace']
-
-  robot.enter (msg) ->
-    msg.send msg.random enterReplies
-  robot.leave (msg) ->
-    msg.send msg.random leaveReplies
