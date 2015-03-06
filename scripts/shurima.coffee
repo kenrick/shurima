@@ -33,3 +33,8 @@ module.exports = (robot) ->
     msg.send "well...fuck you too"
     msg.send "http://media1.giphy.com/media/vF1GYC0FSw2vS/giphy.gif"
     msg.send "I'm an emperor I don't need this shit"
+    
+  robot.hear /I am fire/i, (msg) ->
+    msg.send "I am Death"
+    msg.send "https://www.youtube.com/watch?v=w2T4T8xak3k&t=104"
+   
