@@ -9,13 +9,16 @@
 #   These are from the scripting documentation: https://github.com/github/hubot/blob/master/docs/scripting.md
 
 module.exports = (robot) ->
+  
+  setTimeout () ->
+    robot.messageRoom "general", "Your emperor has returned."
 
-  # https://www.youtube.com/watch?v=DRuIJzTzBCw
+  # This is for Dake :)
+  robot.hear /I can do it/i, (msg) ->
+    msg.send "I CAN CAST A SPELL!"
+  
   robot.hear /my mind is telling me no/i, (msg) ->
     msg.send "BUT MY BODY! MY BODY'S TELLING ME YESSS!"
-
-  setTimeout () ->
-    robot.messageRoom "general", "Your emperor has returned"
 
   robot.hear /pony/i, (msg) ->
     msg.emote "http://media.giphy.com/media/12XMGIWtrHBl5e/giphy.gif"
