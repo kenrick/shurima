@@ -29,7 +29,7 @@ module.exports = (robot) ->
   robot.hear /time has come/i, (msg) ->
     msg.send "and so have I..."
 
-  robot.hear /fuck (you|u) shurima/i, (msg) ->
+  robot.hear /(fck|fuck) (you|u) shurima/i, (msg) ->
     msg.send "well...fuck you too"
     msg.send "http://media1.giphy.com/media/vF1GYC0FSw2vS/giphy.gif"
     msg.send "I'm an emperor I don't need this shit"
