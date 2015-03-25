@@ -38,3 +38,38 @@ module.exports = (robot) ->
     msg.send "I am Death"
     msg.send "https://www.youtube.com/watch?v=w2T4T8xak3k&t=104"
    
+  robot.hear /Carona/i, (msg) ->
+    msg.send "Leaf ap ya head"
+    
+  robot.hear /If there is evil in this world/i, (msg) ->
+    msg.send "It lurks in the hearts of man..."
+    
+  robot.hear /Intomb/i, (msg) ->
+    msg.send "HASEYO!!!"
+
+  robot.hear /Infreeze/i, (msg) ->
+    msg.send "HASEYO!!!"
+    
+  robot.hear /Failed/i, (msg) ->
+    msg.send "We have failed the Rodina, we have failed ourselves..."
+    
+  robot.hear /Hello/i, (msg) ->
+    msg.send "Hello light. Hello light. Hello light..."
+    
+  robot.hear /destroy/i, (msg) ->
+    msg.send "Destroy us all?"
+    
+  robot.hear /Liu Kang/i, (msg) ->
+    msg.send "Pwaaaaaaah!!!"
+    
+  robot.hear /Volcanic/i, (msg) ->
+    msg.send "VOLCANIC VIPAAAAAH!!!"
+    
+  robot.hear /Alpha/i, (msg) ->
+    msg.send "ALPHA BLADE!!!"
+    
+   robot.hear /Beta/i, (msg) ->
+    msg.send "BETA BLADE!!!"
+    
+   robot.hear /Gamma/i, (msg) ->
+    msg.send "GAMMA BLADE!!!"
