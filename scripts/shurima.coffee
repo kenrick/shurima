@@ -39,7 +39,7 @@ module.exports = (robot) ->
     msg.send "https://www.youtube.com/watch?v=w2T4T8xak3k&t=104"
    
   robot.hear /Carona/i, (msg) ->
-    msg.send "Leaf ap ya head"
+    msg.send "LEAF AP YA HEAD!!!"
     
   robot.hear /If there is evil in this world/i, (msg) ->
     msg.send "It lurks in the hearts of man..."
@@ -73,3 +73,7 @@ module.exports = (robot) ->
     
    robot.hear /Gamma/i, (msg) ->
     msg.send "GAMMA BLADE!!!"
+    
+   robot.hear /Fix it/i, (msg) ->
+    msg.send "GOD, GOD DAMN IT, YOU CAN'T FIX IT!!!"
+    msg.send "https://www.youtube.com/watch?v=5NylmdC_uEM"
