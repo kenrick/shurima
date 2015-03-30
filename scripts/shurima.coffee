@@ -78,33 +78,33 @@ module.exports = (robot) ->
     msg.send "GOD, GOD DAMN IT, YOU CAN'T FIX IT!!!"
     msg.send "https://www.youtube.com/watch?v=5NylmdC_uEM"
 
-   robot.hear /Eggs/i, (msg) ->
+   robot.hear /^Eggs/i, (msg) ->
     msg.send "Eggs, eggs, eggs, eggs, eggs."
 
-   robot.hear /Brothers/i, (msg) ->
+   robot.hear /^Brothers/i, (msg) ->
     msg.send "We're duck brothers, we're not supposed to be laying eggs."
 
-   robot.hear /Rock/i, (msg) ->
+   robot.hear /^Rock/i, (msg) ->
     msg.send "REGI REGI ROCKU!"
     msg.send "https://www.youtube.com/watch?v=pSMQYDYBALY"
 
-   robot.hear /Ice/i, (msg) ->
+   robot.hear /^Ice/i, (msg) ->
     msg.send "REGICE REGICE!"
     msg.send "https://youtu.be/pSMQYDYBALY?t=22"
 
-   robot.hear /Steel/i, (msg) ->
-    msg.send "REGI REGI ROCKU!"
+   robot.hear /^Steel/i, (msg) ->
+    msg.send "*@(#$ $*#&@ #*$(!"
     msg.send "https://youtu.be/pSMQYDYBALY?t=31"
 
    robot.hear /Nemesis/i, (msg) ->
     msg.send "NEMESIS!"
     msg.send "http://www.harkavagrant.com/nonsense/Nemesissm.png"
 
-   robot.hear /Who's that pokemon/i, (msg) ->
+   robot.hear /Who's that pokemon?/i, (msg) ->
     msg.send "Ummmbululululuuluulu!"
     msg.send "https://www.youtube.com/watch?v=-8-pdIIyroM"
 
-   robot.hear /Haha/i, (msg) ->
+   robot.hear /^Haha/i, (msg) ->
     msg.send "Shin de na bu, na bu jah."
 
    robot.hear /Kinets/i, (msg) ->
