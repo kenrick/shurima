@@ -86,21 +86,18 @@ module.exports = (robot) ->
 
    robot.hear /Rock/i, (msg) ->
     msg.send "REGI REGI ROCKU!"
-    msg.send "https://www.youtube.com/watch?v=pSMQYDYBALY"
 
    robot.hear /Ice/i, (msg) ->
     msg.send "REGICE REGICE!"
-    msg.send "https://youtu.be/pSMQYDYBALY?t=22"
 
    robot.hear /Steel/i, (msg) ->
-    msg.send "REGI REGI ROCKU!"
-    msg.send "https://youtu.be/pSMQYDYBALY?t=31"
+    msg.send "*Record Noises*"
 
    robot.hear /Nemesis/i, (msg) ->
     msg.send "NEMESIS!"
     msg.send "http://www.harkavagrant.com/nonsense/Nemesissm.png"
 
-   robot.hear /Who's that pokemon/i, (msg) ->
+   robot.hear /Who's that pokemon?/i, (msg) ->
     msg.send "Ummmbululululuuluulu!"
     msg.send "https://www.youtube.com/watch?v=-8-pdIIyroM"
 
