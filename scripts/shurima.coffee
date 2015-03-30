@@ -115,3 +115,9 @@ module.exports = (robot) ->
   
    robot.hear /You cannot so much as/i, (msg) ->
     msg.send "Bend my knees."
+
+   robot.hear /Dive/i, (msg) ->
+    msg.send "Tower Dive, we must tower dive"
+
+   robot.hear /Fed/i, (msg) ->
+    msg.send "I feel so good now, so fed"
