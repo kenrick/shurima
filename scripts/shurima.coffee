@@ -84,7 +84,7 @@ module.exports = (robot) ->
    robot.hear /Brothers/i, (msg) ->
     msg.send "We're duck brothers, we're not supposed to be laying eggs."
 
-    robot.hear /Rock/i, (msg) ->
+  robot.hear /Rock/i, (msg) ->
     msg.send "REGI REGI ROCKU!"
 
    #robot.hear /Ice/i, (msg) ->
